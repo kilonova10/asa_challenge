@@ -170,8 +170,8 @@ def get_f_Y(amp):
 
 ''' get energy in a specific frequency band given FFT arrays '''
 def get_breathing_band(f,Y, samplerate):
-    min_speech = 15e3
-    max_speech = 25e3
+    min_speech = 35e3
+    max_speech = 40e3
 
     start_speech =  find_nearest(f, min_speech)
     end_speech =  find_nearest(f, max_speech)

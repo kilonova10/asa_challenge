@@ -1,5 +1,7 @@
 # asa_challenge
-ASA Challenge
+ASA Challenge - 2023 First Place Winner with Ben Masters
+
+Check the `final_report.pdf` for our submission and approach.
 
 
 ## Underwater Audio Processing, hydrophones N, O, P
@@ -14,7 +16,6 @@ Approach:
 3) Estimate breathing rate:
 - find changes in spectrogram in time that corresponds with breathing, compute breathing rate
 - compute time between peaks in frame based power, indicating where breaths are taking place, to generate a breathing rate
-
 
 
 ### Task 2: find time of closest approach to hydrophone O, estimate diver's altitude, swimming speed
